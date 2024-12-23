@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { dbConnect } from "../../lib/dbConnect";
-import User from "../../models/userModel";
+import { dbConnect } from "../../../lib/dbConnect";
+import User from "../../../models/userModel";
 import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 
